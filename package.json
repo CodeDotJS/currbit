@@ -1,0 +1,42 @@
+{
+  "name": "currbit",
+  "version": "1.0.0",
+  "description": "An API to convert any world currency into Bitcoin value.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDotJS/currbit.git"
+  },
+  "keywords": [
+    "convert",
+    "world",
+    "currency",
+    "bitcoin",
+    "value",
+    "change",
+    "dollar",
+    "btc"
+  ],
+  "dependencies": {
+    "got": "^7.1.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (http://rishigiri.ml)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeDotJS/currbit/issues"
+  },
+  "homepage": "https://github.com/CodeDotJS/currbit#readme"
+}
